@@ -11,5 +11,4 @@ $stmt =$conn->prepare($query);
 $stmt ->bindParam('id', $id);
 $stmt->execute();
 
-
 header('Location:index.php');
